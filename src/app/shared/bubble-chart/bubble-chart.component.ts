@@ -103,7 +103,7 @@ export class BubbleChartComponent implements OnChanges, OnInit {
         );
       }
 
-      // // Translate to the new origin. Now Y-axis of the canvas is opposite to the Y-axis of the graph. So the y-coordinate of each element will be negative of the actual
+      // // Translate to the new origin. Now Y-axis of the canvas is opposite to the Y-axis of the graph
       this.context.translate(
         this.yAxis * this.widthBtwLinesY,
         this.xAxis * this.widthBtwLinesX
