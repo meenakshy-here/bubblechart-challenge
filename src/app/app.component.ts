@@ -17,8 +17,8 @@ export class AppComponent {
       .subscribe((data: any) => {
         this.chartData = data;
       });
-    // To test the app using this static data, please un-comment lines in file bubble-chart.components.ts file 
-    // from line 46 to 49 - The first four lines of ngOnChanges method.
+    // To test the app using the below static data, please comment lines from 15 to 19,un-comment lines from 22 to 48, un-comment lines in file bubble-chart.components.ts file 
+    // from 46 to 49 - The first four lines of ngOnChanges method.
     //   this.chartData = [
     //     {
     //        "title":"HR",
