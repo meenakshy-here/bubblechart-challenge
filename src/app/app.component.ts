@@ -18,7 +18,7 @@ export class AppComponent {
         this.chartData = data;
       });
     // To test the app using this static data, please un-comment lines in file bubble-chart.components.ts file 
-    // from line 47 to 50
+    // from line 46 to 49 - The first four lines of ngOnChanges method.
     //   this.chartData = [
     //     {
     //        "title":"HR",
