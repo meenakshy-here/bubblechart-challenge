@@ -16,6 +16,33 @@ export class AppComponent {
     this.chartData = this.chartDataService.getChartData().subscribe((data: any) => {
       this.chartData = data;
     })
+  //   this.chartData = [
+  //     {
+  //        "title":"HR",
+  //        "salary":550,
+  //        "compratio":10,
+  //        "headcount":300
+  //     }
+  //     ,
+  //     {
+  //        "title":"Marketing",
+  //        "salary":660,
+  //        "compratio":25,
+  //        "headcount":380
+  //     },
+  //     {
+  //        "title":"Engineering",
+  //        "salary":700,
+  //        "compratio":30,
+  //        "headcount":550
+  //     },
+  //     {
+  //        "title":"Operations",
+  //        "salary":750,
+  //        "compratio":20,
+  //        "headcount":700
+  //     }
+  //  ];
   }
 
 }
